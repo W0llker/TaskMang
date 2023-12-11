@@ -1,4 +1,6 @@
 Запуск
+mvn package
+
 docker compose up
 
 
