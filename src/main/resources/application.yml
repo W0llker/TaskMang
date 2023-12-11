@@ -1,0 +1,23 @@
+server:
+  error:
+    include-message: always
+  port: 8080
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/task
+    driver-class-name: org.postgresql.Driver
+    password: nik981ita413
+    username: postgres
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        format_sql: true
+        show_sql: true
+  main:
+    web-application-type: servlet
+  docker:
+    compose:
+      file: ./docker-compose.yml

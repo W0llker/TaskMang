@@ -1,0 +1,7 @@
+Запуск
+docker compose up
+
+
+
+запросы я тестировал через postman, а в swagger у меня не получилось
+https://www.postman.com/science-physicist-56709911/workspace/taskmanagement/collection/30840759-e77b7dc1-9700-44e9-b168-209b5dbf505f
